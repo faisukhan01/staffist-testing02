@@ -32,6 +32,8 @@ export default function SignInPage() {
         <Link
           href="/"
           className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-800 transition-colors"
+        >
+          <ArrowLeft size={14} /> Back to Home
         </Link>
       </div>
       <motion.div
